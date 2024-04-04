@@ -7,3 +7,18 @@ body{
     background: var(--background-img) no-repeat top center/cover;
     height: 100vh;
 }
+#container{
+    width: 100%;
+    max-width: 580px;
+    border: 1px solid red;
+    margin: 56px auto 0;
+}
+#profile {
+    text-align: center;
+    margin: 26px;
+    border: 2px solid green;
+}
+
+#profile img{
+    width: 180px;
+}
