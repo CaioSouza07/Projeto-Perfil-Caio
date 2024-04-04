@@ -2,3 +2,8 @@
     --background-img: url(./imagens/bg-mobile.jpg);
     --text-color: white;
 }
+
+body{
+    background: var(--background-img) no-repeat top center/cover;
+    height: 100vh;
+}
