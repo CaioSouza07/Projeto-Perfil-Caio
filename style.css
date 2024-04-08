@@ -3,6 +3,7 @@
     --background-img: url(./imagens/bg-mobile.jpg);
     --text-color: white;
     --bg-links: rgba(255, 255, 255, 0.1);
+    --bg-links-hover: rgba(255, 255, 255, 0.05);
 }
 *{
     margin: 0;
@@ -57,4 +58,8 @@ body *{
     border-radius: 8px;
     background: var(--bg-links);
     font-weight: 500;
+}
+#links ul li a:hover{
+    border: 1.5px solid var(--text-color);
+    background-color: var(--bg-links-hover);
 }
