@@ -4,6 +4,7 @@
     --text-color: white;
     --bg-links: rgba(255, 255, 255, 0.1);
     --bg-links-hover: rgba(255, 255, 255, 0.05);
+    --bg-media-hover: rgba(255, 255, 255, 0.2);
 }
 *{
     margin: 0;
@@ -62,4 +63,34 @@ body *{
 #links ul li a:hover{
     border: 1.5px solid var(--text-color);
     background-color: var(--bg-links-hover);
+}
+#social-media{
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+    font-size: 30px;
+}
+#social-media a{
+    display: flex;
+    text-align: center;
+    border-radius: 50%;
+    padding: 16px;
+    transition: background 0.2s;
+}
+#social-media button{
+    font-size: 30px;
+    background: none;
+    border: none;
+    display: flex;
+    text-align: center;
+    border-radius: 50%;
+    padding: 16px;
+    transition: background 0.2s;
+}
+#social-media button:hover{
+    background: var(--bg-media-hover);
+}
+#social-media a:hover{
+    background: var(--bg-media-hover);
 }
