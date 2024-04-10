@@ -105,3 +105,8 @@ body *{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 14px;
+}
