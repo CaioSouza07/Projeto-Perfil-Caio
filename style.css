@@ -91,10 +91,10 @@ body *{
 #social-media a:hover{
     background: var(--bg-media-hover);
 }
-.hidden{
+.visualizacao{
     display: none;
 }
-#infoBox p{
+#emailBox p{
     position: absolute;
     background: var(--background-img);
     border: 3px solid #ccc ;

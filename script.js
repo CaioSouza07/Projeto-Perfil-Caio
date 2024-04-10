@@ -1,4 +1,4 @@
 function insereEmail(){
-    var infoBox = document.getElementById("infoBox");
-    infoBox.classList.toggle("hidden");
+    var infoBox = document.getElementById("emailBox");
+    infoBox.classList.toggle("visualizacao");
 }
