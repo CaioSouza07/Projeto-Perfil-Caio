@@ -91,3 +91,17 @@ body *{
 #social-media a:hover{
     background: var(--bg-media-hover);
 }
+.hidden{
+    display: none;
+}
+#infoBox p{
+    position: absolute;
+    background: var(--background-img);
+    border: 3px solid #ccc ;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
